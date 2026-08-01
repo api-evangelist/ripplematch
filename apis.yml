@@ -1,8 +1,28 @@
 aid: ripplematch
 name: RippleMatch
-description: RippleMatch is a company surfaced as a portfolio company of bullpen-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  RippleMatch is an AI-powered early-career recruiting platform that matches college
+  students and recent graduates with internships and entry-level jobs based on their
+  background, skills, and career goals rather than mass applications. For employers it
+  offers "Campus OS", an all-in-one recruiting operating system for sourcing, skills
+  validation, and campus event management, and it transfers matched candidates into most
+  major applicant tracking systems (Greenhouse, Workday, Lever, SmartRecruiters, BambooHR).
+  RippleMatch was surfaced as a portfolio company of Bullpen Capital and profiled in the
+  API Evangelist network. As of this enrichment pass the company publishes no public
+  developer portal, API reference, OpenAPI specification, SDKs, or webhook/event surface;
+  its integrations are one-way ATS data transfers rather than an openly documented API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://8139278.fs1.hubspotusercontent-na1.net/hubfs/8139278/RippleMatch%20Logo%20Square%20-%202024%20Onwards.png
 url: https://raw.githubusercontent.com/api-evangelist/ripplematch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Recruiting
+- Hiring
+- Early Career
+- Job Matching
+- Campus Recruiting
+- Talent Acquisition
+- HR Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +49,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ripplematch-domain-security.yml
 - type: Website
   url: https://ripplematch.com
+- type: Blog
+  url: https://ripplematch.com/career-advice
+- type: SignUp
+  url: https://app.ripplematch.com/v2/login/register
+- type: Login
+  url: https://app.ripplematch.com/v2/login
+- type: TermsOfService
+  url: https://app.ripplematch.com/tos
+- type: PrivacyPolicy
+  url: https://app.ripplematch.com/v2/public/privacy
+- type: Support
+  url: mailto:support@ripplematch.com
+- type: LLMsTxt
+  url: llms/ripplematch-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: live probe of /.well-known/ on ripplematch.com + app.ripplematch.com
+note: >-
+  No .well-known discovery documents are published. Every probed path returned 404 on
+  both the marketing host and the application host. Recorded as honest negative evidence;
+  no WellKnown/SecurityTxt pointer is wired because no document is present.
+hosts:
+- host: https://ripplematch.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://app.ripplematch.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
