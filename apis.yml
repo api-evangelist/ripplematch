@@ -11,6 +11,17 @@ description: >-
   API Evangelist network. As of this enrichment pass the company publishes no public
   developer portal, API reference, OpenAPI specification, SDKs, or webhook/event surface;
   its integrations are one-way ATS data transfers rather than an openly documented API.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
