@@ -64,6 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-RippleMatch is a company surfaced as a portfolio company of bullpen-capital and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+RippleMatch is an AI-powered early-career recruiting platform that matches college students and recent graduates with internships and entry-level jobs based on their background, skills, and career goals rather than mass applications. For employers it offers "Campus OS", an all-in-one recruiting operating system for sourcing, skills validation, and campus event management, and it transfers matched candidates into most major applicant tracking systems (Greenhouse, Workday, Lever, SmartRecruiters, BambooHR). RippleMatch was surfaced as a portfolio company of Bullpen Capital and profiled in the API Evangelist network. As of this enrichment pass the company publishes no public developer portal, API reference, OpenAPI specification, SDKs, or webhook/event surface; its integrations are one-way ATS data transfers rather than an openly documented API.
 
-Backed by: bullpen-capital — https://ripplematch.com
+**Areas:** Company · Recruiting · Hiring · Early Career · Job Matching · Campus Recruiting · Talent Acquisition · Human Resources
+
+## RippleMatch on APIs.io
+
+Everything profiled for RippleMatch is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ripplematch/](https://apis.io/providers/ripplematch/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ripplematch Domain Security](https://apis.io/security/ripplematch/ripplematch-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ripplematch.com)
+- [Sign up](https://app.ripplematch.com/v2/login/register)
+- [Blog](https://ripplematch.com/career-advice)
+- [Terms of service](https://app.ripplematch.com/tos)
+- [Privacy policy](https://app.ripplematch.com/v2/public/privacy)
+
+## API Evangelist rating
+
+**Kin Score 13.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ripplematch/](https://apis.io/providers/ripplematch/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for RippleMatch: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ripplematch/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
